@@ -15,7 +15,7 @@ engine:
     COPILOT_PROVIDER_BASE_URL: https://ghaw-apim-spike.azure-api.net/foundry/openai/v1
     COPILOT_PROVIDER_API_KEY: ${{ secrets.AZURE_FOUNDRY_API_KEY }}
     COPILOT_MODEL: gpt-4.1-mini
-    COPILOT_PROVIDER_WIRE_API: responses
+    COPILOT_PROVIDER_WIRE_API: completions
 
 network:
   allowed:
