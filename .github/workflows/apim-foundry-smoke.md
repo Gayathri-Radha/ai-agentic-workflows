@@ -11,8 +11,8 @@ engine:
   model: gpt-4.1-mini
   env:
     COPILOT_PROVIDER_BASE_URL: https://ghaw-apim-spike.azure-api.net/foundry/openai/v1
+    COPILOT_MODEL: gpt-4.1-mini
     COPILOT_PROVIDER_WIRE_API: responses
-    COPILOT_PROVIDER_TYPE: azure
 
 network:
   allowed:
