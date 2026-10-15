@@ -14,9 +14,9 @@ engine:
   model: gpt-4.1-mini
   auth:
     type: github-oidc
-    azure-tenant-id: 950a3fad-34b5-415a-8bec-8074b03aabaa
-    azure-client-id: 5395fdb9-8066-4006-9f8b-f56563579808
-    azure-scope: api://5d503f85-f79b-490a-bebf-217f77e0da51/.default
+    azure-tenant-id: ${{ vars.AZURE_TENANT_ID }}
+    azure-client-id: ${{ vars.AZURE_CLIENT_ID }}
+    azure-scope: ${{ vars.AZURE_SCOPE }}
   env:
     COPILOT_PROVIDER_BASE_URL: https://ghaw-apim-spike.azure-api.net/foundry/openai/v1
     COPILOT_MODEL: gpt-4.1-mini
